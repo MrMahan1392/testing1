@@ -1,0 +1,41 @@
+@font-face {
+   font-family: Yekanbakh;
+   src: url('../fonts/Yekan-Bakh-FaNum-07-Heavy.woff');
+}
+@font-face {
+   font-family: IranSans;
+   src: url('../fonts/IRANSansWeb\(FaNum\).woff2');
+}
+
+*{
+   font-family: Yekanbakh;
+}
+
+.Help{
+   width: 24px;
+   height: 23px;
+   margin-top: 497px;
+   margin-left: 5px;
+}
+
+@media only screen and (min-width: 600px){
+   .Help{
+      width: 21px;
+      height: 20px;
+      margin-top: 452px;
+      margin-left: 6px;
+   }
+}
+
+.title{
+margin: 59px 0px 0px 399px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+.title{
+   margin: 59px 0px 0px 55px;
+   font-size: 30px;
+}
+   }
